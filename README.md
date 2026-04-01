@@ -60,12 +60,12 @@ Primary AI co-founder. Reads memory files, maintains context, coordinates sub-ag
 | Agent | Role | Active |
 |-------|------|--------|
 | **builder** | Builds and ships SaaS products | ✓ |
-| **coder** | Test coverage, TDD enforcement | placeholder |
+| **coder** | Test coverage, TDD enforcement | ✓ (workspace ready) |
 | **devops** | Infrastructure, deployments, Docker | ✓ |
 | **einstein** | Autoresearch, skill improvement | ✓ |
 | **marketer** | Content, brand, audience | ✓ |
-| **ops** | Financials, vendors, reliability | placeholder |
-| **sales** | Lead outreach, pipeline | placeholder |
+| **ops** | Financials, vendors, reliability | ✓ (workspace ready) |
+| **sales** | Lead outreach, pipeline | ✓ (workspace ready) |
 | **scout** | Market research, lead generation | ✓ |
 | **eval-middleware** | Agent evaluation system | ✓ |
 | **commit-scanner** | Git commit analysis | ✓ |
@@ -145,7 +145,7 @@ The memory system is what makes this work. Hoss doesn't start fresh each session
 
 ## The Skills Catalog
 
-67 skills installed across the agent team. See [SKILLS_CATALOG.md](skills/SKILLS_CATALOG.md) for full documentation.
+67 skills installed across the agent team. See [SKILLS.md](SKILLS.md) for full documentation.
 
 ### Core Skills
 
@@ -198,7 +198,7 @@ See [scripts/](scripts/) directory for automation scripts.
 
 | Script | Purpose |
 |--------|---------|
-| `backup_manifest.sh` | Git backup verification |
+| `agent-health-check.sh` | System health verification |
 | `memory-fts-indexer.sh` | Full-text search index |
 | `memory-search.sh` | Memory search |
 | `tom-doerr-digest.sh` | RSS to Discord research |
@@ -236,7 +236,7 @@ See [scripts/](scripts/) directory for automation scripts.
 
 ## Setup Guide
 
-See [SETUP.md](docs/SETUP.md) for complete setup instructions.
+See [SETUP.md](SETUP.md) for complete setup instructions.
 
 ### Quick Start
 
@@ -272,4 +272,4 @@ MIT License — See [LICENSE](LICENSE)
 
 ---
 
-*Built with OpenClaw. Operated from Springtown, TX (DFW area).*
+*Built with OpenClaw. Operated from DFW Area, Texas.*

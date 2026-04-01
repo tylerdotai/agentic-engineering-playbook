@@ -24,12 +24,12 @@ Tyler runs a team of 13 agents: 1 primary (Hoss) + 12 sub-agents. This document 
 | Agent | Workspace | Role | Active |
 |-------|-----------|------|--------|
 | **builder** | `agents/builder/` | Builds and ships SaaS products | ✓ |
-| **coder** | `agents/coder/` | Test coverage, TDD enforcement | placeholder |
+| **coder** | `agents/coder/` | Test coverage, TDD enforcement | workspace ready |
 | **devops** | `agents/devops/` | Infrastructure, deployments, Docker | ✓ |
 | **einstein** | `agents/einstein/` | Autoresearch, skill improvement | ✓ |
 | **marketer** | `agents/marketer/` | Content, brand, audience | ✓ |
-| **ops** | `agents/ops/` | Financials, vendors, reliability | placeholder |
-| **sales** | `agents/sales/` | Lead outreach, pipeline | placeholder |
+| **ops** | `agents/ops/` | Financials, vendors, reliability | workspace ready |
+| **sales** | `agents/sales/` | Lead outreach, pipeline | workspace ready |
 | **scout** | `agents/scout/` | Market research, lead generation | ✓ |
 | **eval-middleware** | `agents/eval-middleware/` | Agent evaluation system | ✓ |
 | **commit-scanner** | `agents/commit-scanner/` | Git commit analysis | ✓ |
