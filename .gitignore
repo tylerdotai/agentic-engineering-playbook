@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# OpenClaw
+.openclaw/logs/
+.openclaw/memory/*.db
+.openclaw/agents/*/workspace/
+
+# Credentials
+*.pem
+*.key
+.env
+.env.*
+secrets/
+
+# Temp
+tmp/
+temp/
+*.tmp
