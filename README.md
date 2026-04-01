@@ -181,7 +181,7 @@ The memory system is what makes this work. Hoss doesn't start fresh each session
 
 ## The Cron Schedule
 
-Automated tasks run on schedule. See [CRONS.md](docs/CRONS.md) for full schedule.
+Automated tasks run on schedule. See [CRONS.md](CRONS.md) for full schedule.
 
 | Time | Task | Agent | Status |
 |------|------|-------|--------|
